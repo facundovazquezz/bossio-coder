@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap');
+/*------------Reset------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    color: #182145;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*------------Header------------*/
+header{
+    display: flex;
+    background-color: white;
+    position: sticky;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+}
+header nav ul{
+    display:flex ;
+}
+header nav ul li{
+    display: flex;
+    margin: 12px;
+}
+header nav ul li a{
+    text-decoration: none;
+}
+
+
+/*------------Main------------*/
+.weare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/jordan.png);
+    background-size: cover;
+    background-position: center;
+}
+.weare-titulo{
+    text-align: center;
+}
+
+
+/*------------Footer------------*/
+
+
+
+
