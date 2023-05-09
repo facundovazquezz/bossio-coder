@@ -4,83 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Bossio|Nosotros</title>
 </head>
 <body>
     <header>
-        <a href="../index.html"><img src="../img/Free_Sample_By_Wix.jpg" alt=""></a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="./categorias.html">categorias</a></li>
-                <li><a href="./nosotros.html">nosotros</a></li>
-                <li><a href="./contacto.html">contacto</a></li>
-            </ul>
-            <img src="../img/lupa.png" alt=""><img src="../img/carrito-de-compras.png" alt="">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../img/Free_Sample_By_Wix.jpg" alt="" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/categorias.html">Categorias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section>
+            <h1 class="nosotros__titulo">Nosotros</h1>
             <div class="nosotros">
-                <h1 class="nosotros-titulo">Nosotros</h1>
-                <img src="../img/lebron carmelo.jpg" alt="" class="nosotros-img">
-                <p class="nosotros-texto">Somos la primer tienda de consignación HYPE en la Argentina. Con mas de 10 años de experiencia en la industria  . En DROPS vas a encontrar productos únicos y %100 originales</p>
+                <img src="../img/lebron carmelo.jpg" alt="" class="nosotros__img">
+                <p class="nosotros__texto">Somos la primer tienda de consignación HYPE en la Argentina. Con mas de 10 años de experiencia en la industria  . En DROPS vas a encontrar productos únicos y %100 originales</p>
             </div>
         <section>
+            <h2 class="showroom__titulo">Showroom</h2>
             <div class="showroom">
-                <h2 class="showroom-titulo">Showroom</h2>
-                <img src="../img/rodman.jpg" alt="" class="showroom-img1">
-                <img src="../img/diddy.jpg" alt=""class="showroom-img2">
-                <img src="../img/allen.jpg" alt="" class="showroom-img3">
+                <img src="../img/rodman.jpg" alt="" class="showroom__img">
+                <img src="../img/diddy.jpg" alt=""class="showroom__img">
+                <img src="../img/allen.jpg" alt="" class="showroom__img">
             </div>
         <section>
-            <div class="encontranos">
-                <img src="../img/bow-wow-image-via-jeffkravitz-tsw_w1160.jpg" alt="" class="encontranos-img">
-                <h3 class="encontranos-titulo">Encontranos en </h3>
-                <p class="encontranos-texto">Olazabal 1515 Oficina 201 Cuerpo A, Belgrano,Cp 1428</p>
+            <div class="encontranos__contenedor">
+                <img src="../img/bow-wow-image-via-jeffkravitz-tsw_w1160.jpg" alt="" class="encontranos__img">
+                <div class="texto-contenedor">
+                    <h3 class="encontranos__titulo">Encontranos en </h3>
+                    <p class="encontranos__texto">Olazabal 1515 Oficina 201 Cuerpo A, Belgrano,Cp 1428</p>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="soporte-contenido">
-            <p class="soporte-titulo">Soporte</p>
-            <ul>
-                <li>
-                    <img src="../img/email.png" alt="">
-                    <p>bossiocontact@gmial.com</p>
-                </li>
-                <li>
-                    <img src="../img/llamada-telefonica.png" alt="">
-                    <p>+54 2964405920</p>
-                </li>
-            </ul>
+        <div class="padre">
+            <div class="footer__caja">
+                <p class="footer__titulo">Soporte</p>
+                <ul>
+                    <li>
+                        <img src="../img/email.png" alt="">
+                        <p>bossiocontact@gmial.com</p>
+                    </li>
+                    <li>
+                        <img src="../img/llamada-telefonica.png" alt="">
+                        <p>+54 2964405920</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__caja">  
+            <p class="footer__titulo">¿Por que Bossio?</p>
+                <ul>
+                    <li>
+                        <img src="../img/entrega.png" alt="">
+                        <p>Envios a todo el país</p>
+                    </li>
+                    <li>
+                        <img src="../img/verificacion-de-escudo.png" alt="">
+                        <p>Variedad de productos exclusivos</p>
+                    </li>
+                    <li>
+                        <img src="../img/candado.png" alt="">
+                        <p>Sitio Seguro</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__caja">
+                <p class="footer-titulo">Metodos de Pago</p>
+                <img src="../img/definitiba.png" alt="">
+            </div>    
+            <div class="footer__caja">
+                <img src="../img/instagram-removebg-preview.png" alt="Icono Instagram">
+                <p>@bossio</p>
+            </div>
+            <div class="footer__copy">
+                <hr>
+                <p>Todos los derechos reservados © 2023 
+                <b>Bossio</b></p>
+            </div>
         </div>
-        <div class="porque-contenido">  
-        <p class="porque-titulo">¿Por que Bossio?</p>
-            <ul>
-                <li>
-                    <img src="../img/entrega.png" alt="">
-                    <p>Envios a todo el país</p>
-                </li>
-                <li>
-                    <img src="../img/verificacion-de-escudo.png" alt="">
-                    <p>Variedad de productos exclusivos</p>
-                </li>
-                <li>
-                    <img src="../img/candado.png" alt="">
-                    <p>Sitio Seguro</p>
-                </li>
-            </ul>
-        </div>
-        <div class="metodo">
-            <p class="metodo-titulo">Metodos de Pago</p>
-            <img src="../img/definitiba.png" alt="">
-        </div>    
-        <div class="ig">
-            <img src="../img/instagram-removebg-preview.png" alt="Icono Instagram">
-            <p>@bossio</p>
-        </div>
-        <p class="copy">Copyright © Bossio 2023</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>

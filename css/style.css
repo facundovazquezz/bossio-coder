@@ -15,7 +15,6 @@ a{
     text-decoration: none;
 }
 
-
 /*------------Header------------*/
 header{
     display: flex;
@@ -23,8 +22,8 @@ header{
     position: sticky;
     align-items: center;
     flex-direction: column;
-    font-size: 20px;
-    font-family:'Poppins', sans-serif;
+    font-size: 22px;
+    color: #182145;
 }
 header nav ul{
     display:flex ;
@@ -33,28 +32,308 @@ header nav ul li{
     display: flex;
     margin: 12px;
 }
-header nav ul li a{
-    text-decoration: none;
-}
+
 
 
 /*------------Main------------*/
 .weare{
     display: flex;
-    justify-content: center;
+    flex-direction:column ;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/img/jordan.png);
-    background-size: cover;
-    background-position: center;
+    justify-content: center;
 }
-.weare-titulo{
+.weare__img{
+    width: 100%;
+    height: 100%;
+}
+.weare__titulo{
+    color: #182145;
+    font-size: 60px;
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.producto__img{
+    height: 433px;
+    width: 433px;
+}
+.productos__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    font-size: 40px;
+}
+.producto{
+    vertical-align: text-bottom;
     text-align: center;
+    box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+}
+.productos__texto{
+    font-size: 18px;
+}
+
+.categorias{
+    display: grid;
+    grid-template-columns: 638.50px 638.50px;
+    grid-template-rows: 432px 216px 300px;
+    column-gap: 20px;
+    row-gap: 20px;  
+    justify-content: center;
+    object-fit: cover;
+}
+.categorias__titulo{
+    display: grid;
+    justify-content: center;
+    margin: 8%;
+    font-size: 40px;
+}
+.categorias__texto{
+    font-size: 50px;
+    position: absolute;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.categorias__img1{
+    height:432px;
+    width:638.50px;
+}
+.categorias__img2{
+    height:432px;
+    width:638.50px;
+}
+.categorias__img3{
+    height:432px;
+    width:1298px;
+}
+.somos__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    padding:3%;
+    font-size: 40px;
+}
+.somos__texto{
+    display: flex;
+    justify-content: center;
+    font-size: 25px
+}
+
+*/------------Footer------------*/
+footer{
+    width: 100%;
+    padding: 50px 0px;
+}
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+.footer__caja{
+    display: flex;
+    flex-direction: column;
+    padding: 40spx;
+}
+.footer__titulo{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.footer__caja ul li p:hover{
+    opacity: 0.8;
+}
+.footer__caja ul li img:hover{
+    opacity: 0.8;
+}
+.footer__copy{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.footer__copy p{
+    margin-top: 20px;
+
+}
+.footer__copy hr{
+    border: none;
+    height: 2px;
+    background-color: #182145;
+}
+
+/*------------Contacto------------*/
+.contacto__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 8%;
+    font-size: 40px;
+}
+.contacto__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.consulta{
+    margin-bottom: 400px;
+    margin-right: 100px;
+}
+.contacto__img{
+    box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+
+}
+
+/*------------Conocenos------------*/
+.nosotros__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 8%;
+    font-size: 40px;
+}
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nosotros__texto{
+        width: 40%;
+        font-size: 30px;
+}
+.nosotros__img{
+    box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+}
+.showroom__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 8%;
+    font-size: 40px;
+}
+.showroom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.showroom__img{
+    height:600px ;
+    width:500px ;
+    box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+}
+.encontranos__contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.encontranos__img{
+    height:600px ;
+    width:1000px ;
+    box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 20px -3px rgba(0,0,0,0.75);
+}
+.texto__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
 }
 
 
-/*------------Footer------------*/
+/* media queris para pantallas mas pequeñas */
+@media screen and (max-width: 768px) {
+    header {
+    font-size: 18px;
+    }
+
+    .weare__titulo {
+    font-size: 40px;
+    }
+
+    .producto__img {
+    height: 300px;
+    width: 300px;
+    }
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .producto {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .productos__titulo {
+    font-size: 30px;
+    }
+
+    .categorias {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    }
+
+    .categorias__img1,
+    .categorias__img2,
+    .categorias__img3 {
+    height: 300px;
+    width: 100%;
+    }
+    .categorias__titulo {
+    font-size: 30px;
+    }
+    .somos__titulo {
+    font-size: 30px;
+    }
+    .somos__texto {
+    font-size: 20px;
+    }
+    .footer__caja {
+    padding: 20px;
+    }
+    .footer__titulo {
+    font-size: 25px;
+    }
+}
+  /* media queris para pantallas mas pequeñas */
+@media screen and (max-width: 480px) {
+    .weare__titulo {
+    font-size: 30px;
+    }
+
+    .productos__titulo {
+    font-size: 25px;
+    }
+
+    .categorias__titulo {
+    font-size: 25px;
+    }
+
+    .somos__titulo {
+    font-size: 25px;
+    }
+
+    .somos__texto {
+    font-size: 18px;
+    }
+
+    .footer__titulo {
+    font-size: 20px;
+    }
+}
+
 
 
 
