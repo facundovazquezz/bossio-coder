@@ -1,26 +1,24 @@
         /*VARIABLES*/
-$color__principal: #182145;
-$color__secundario: white;
+        $color__principal: #182145;
+        $color__secundario: white;
 
         /*LISTAS*/
-$colores:
-#182145,
-black,
-white,
-#1c3080;
+        $colores: #182145,
+                black,
+                white,
+                #1c3080;
 
-$font-size:
-40px,
-35px,
-30px,
-25px,
-20px,
-15px,
-10px;
+        $font-size: 40px,
+                35px,
+                30px,
+                25px,
+                20px,
+                15px,
+                10px;
 
         /*MIXINS se incluye como: @include flex (flex, VALOR, VALOR);*/
-@mixin flex($flex, $justify, $align){
-    display: $flex;
-    justify-content: $justify;
-    align-items: $align;
-}
+        @mixin flex($flex, $justify, $align) {
+                display: $flex;
+                justify-content: $justify;
+                align-items: $align;
+        }
