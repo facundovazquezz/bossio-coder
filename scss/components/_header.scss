@@ -1,0 +1,20 @@
+header{
+    @include flex (flex, none, center);
+    background-color: $color__secundario;
+    position: sticky;
+    flex-direction: column;
+    font-size: 22px;
+    color: $color__principal;
+}
+
+header nav ul{
+    display:flex ;
+}
+header nav ul li{
+    display: flex;
+    margin: 12px;
+}
+header nav a img{
+    width: 150px;
+    height: 150px;
+}

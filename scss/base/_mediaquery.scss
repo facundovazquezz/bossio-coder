@@ -1,0 +1,529 @@
+@media screen and (max-width: 768px) {
+    header{
+        font-size: 18px;
+        .navbar__navbar__expand__lg__bg__body__tertiary{
+            justify-content: center;
+            .container__fluid{
+                .navbar__brand{.logo{max-width: 150px;}
+            }
+            .navbar__toggler{
+                margin-right: 10px;
+            }
+                }
+            }
+        .collapse-navbar__collapse{
+            background-color: $color__secundario;
+            padding: 10px;
+            border-radius: 5px;
+            .navbar__nav-me-auto-mb-2-mb-lg-0{
+                flex-direction: column;
+                margin-top: 10px;
+                .nav__item{margin-bottom: 10px;
+                    }
+                }
+            .d__flex{
+                .form__control-me__2{width: 100%;}
+                }
+            }
+        }
+    
+    
+        footer {
+            .padre {
+                .footer__caja {
+                    padding: 20px;
+        
+                    .footer__titulo {
+                        font-size: 25px;
+                    }   
+                }
+            }
+        }
+        
+        .weare{
+            flex-direction: column;
+            .weare__titulo{
+                font-size: 40px;}
+            .weare__img{
+                width: 100%;
+                height: auto;}
+        }
+
+
+        .productos__titulo{ 
+            font-size: 35px;
+            margin: 4%;
+        }
+        .productos{
+            flex-direction: column;
+            .producto{
+                .producto__img{
+                    height: auto;
+                    width: 100%;
+                }
+            }
+        }
+
+
+        .categorias__titulo{
+            font-size: 30px;}
+    .categorias{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        .indumentaria{
+            .categorias__texto{
+                font-size: 40px;}
+            .categorias__img1{    
+                width: 100%;
+                height: auto;}
+        }
+        .calzado{
+            .categorias__texto{
+                font-size: 40px;}
+            .categorias__img2{    
+                width: 100%;
+                height: auto;}
+        }
+        .accesorios{
+            .categorias__texto{
+                font-size: 40px;}
+            .categorias__img3{    
+                width: 100%;
+                height: auto;}
+        }
+    }
+
+
+
+
+    .somos{
+        a{
+            .somos__titulo{
+                font-size: 35px;
+                margin: 1.5%;
+                padding: 2.5%;
+            }
+        }
+        a{
+            .somos__texto{
+                font-size: 22px;
+            }
+        }
+    }
+
+
+    .ayuda__contenedor{
+        padding: 20px;
+        .ayuda__titulo{
+            font-size: 24px;
+        }
+        .ayuda__formulario{
+            .ayuda__mensaje{
+                width: 100%;
+            }
+        }
+    }
+
+
+    div{
+        .contacto__container{
+            flex-direction: column;
+            align-items: center;
+            .contacto__img{margin-bottom: 30px;}
+            .consulta{
+                margin-bottom: 50px;
+                margin-right: 0;
+            }
+        }
+    }
+
+
+    section{
+        .nosotros__titulo{
+            font-size: 30px;
+        }
+        .nosotros{
+            .nosotros__texto{
+                width: 60%;
+                font-size: 25px;
+            }
+        }
+    }
+    section{
+        .showroom__titulo{
+            font-size: 30px;
+        }
+        .showroom{
+            .showroom__img{
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+    section{
+        .encontranos__contenedor{
+            flex-direction: column;
+            margin-top: 40px;
+            .encontranos__img{
+                height: auto;
+                width: 100%;
+            }
+            .texto-contenedor{
+                .encontranos__titulo{font-size: 40px;}
+                .encontranos__texto{font-size: 15px;}
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 480px) {
+    header{
+        .navbar__navbar__expand__lg__bg__body__tertiary{
+            .container__fluid{
+                .navbar__brand{.logo{max-width: 120px;}
+            }
+            .navbar__toggler{
+                margin-right: 5px;
+                
+            }
+            .collapse-navbar__collapse{
+                padding: 5px;
+                .navbar__nav-me-auto-mb-2-mb-lg-0{
+                    margin-top: 5px;
+                    .nav__item{ margin-bottom: 5px;
+                        
+                    }
+                }
+            }
+            }
+        }
+    }
+    
+
+
+    footer {
+        .padre {
+            .footer__caja {
+                .footer__titulo {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+
+    .weare{
+        flex-direction: row;
+        .weare__titulo{
+            font-size: 22px;}
+        .weare__img{
+            width: 100%;
+            height: auto;}
+    }
+
+
+    .productos__titulo{ 
+        font-size: 40px;
+        margin: 4%;
+    }
+    .productos{
+        flex-direction: row;
+        .producto{
+            .productos__texto{
+                font-size: 20px;
+            }
+            .producto__img{
+                height: 433px;
+                width: 433px;
+            }
+        }
+    }
+
+
+    .categorias__titulo{    
+        font-size: 30px;
+        margin: 3%;}
+    .categorias{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        .indumentaria{
+            .categorias__texto{
+                font-size: 40px;
+            }
+            .categorias__img1{
+                height: 300px;
+                width: 100%;
+            }
+        }
+        .calzado{
+            .categorias__texto{
+                font-size: 40px;
+            }
+            .categorias__img2{
+                height: 300px;
+                width: 100%;
+            }
+        }
+        .accesorios{
+            .categorias__texto{
+                font-size: 40px;
+            }
+            .categorias__img3{
+                height: 300px;
+                width: 100%;
+            }
+        }
+    }
+
+
+    .somos{
+        a{
+            .somos__titulo{
+                font-size: 30px;
+                margin: 1%;
+                padding: 2%;
+            }
+        }
+        a{
+            .somos__texto{
+                font-size: 20px;
+            }
+        }
+    }
+
+
+    .ayuda__contenedor{
+        padding: 10px;
+        .ayuda__titulo{
+            font-size: 20px;
+        }
+    }
+
+
+    div{
+        .contacto__container{
+            flex-direction: column;
+            align-items: center;
+            .contacto__img{        
+                margin-bottom: 20px;
+                text-align: center;}
+            .consulta{
+                margin-bottom: 30px;
+                margin-right: 0;
+
+            }
+        }
+    }
+
+
+    section{
+        .nosotros__titulo{font-size: 20px;}
+        .nosotros{
+            .nosotros__img{
+                height: 300px;
+                width: 250px;
+            }
+            .nosotros__texto{
+                width: 20%;
+                font-size: 15px;
+            }
+        }
+    }
+    section{
+        .showroom__titulo{font-size: 20px;}
+        .showroom{
+            .showroom__img{
+                height: 300px;
+                width: 250px;
+            }
+        }
+    }
+    section{
+        .encontranos__contenedor{
+            margin-top: 40px;
+            .encontranos__img{
+                height: 300px;
+                width: 250px;
+            }
+            .texto-contenedor{
+                .encontranos__titulo{font-size: 20px;}
+                .encontranos__texto{font-size: 10px;}
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+}
+@media screen and (min-width: 768px) {
+    header{
+        .navbar__navbar__expand__lg__bg__body__tertiary{
+            justify-content: center;
+            .container__fluid{
+            .navbar__toggler{
+                display: none;
+            }
+            .collapse-navbar__collapse{
+                .navbar__nav-me-auto-mb-2-mb-lg-0{
+                    flex-direction: row;
+                    .nav__item{
+                        margin-left: 10px;
+                    }
+                }
+            }
+            }
+        }
+    }
+
+
+    .weare{
+        flex-direction: row;
+        .weare__titulo{
+            font-size: 60px;}
+        .weare__img{
+            width: 100%;
+            height: auto;}
+    }
+
+
+
+    .productos__titulo{ 
+        font-size: 40px;
+        margin: 4%;
+    }
+    .productos{
+        flex-direction: row;
+        .producto{
+            .producto__img{
+                height: 433px;
+                width: 433px;
+            }
+        }
+    }
+
+
+    .categorias__titulo{
+        font-size: 40px;
+    }
+    .categorias{
+        grid-template-columns: 638.50px 638.50px;
+        grid-template-rows: 432px 216px 300px;
+        .indumentaria{
+            .categorias__texto{
+                font-size: 50px;
+            }
+            .categorias__img1{
+                width: 638.50px;
+                height: 432px;
+            }
+        }
+        .calzado{
+            .categorias__texto{
+                font-size: 50px;
+            }
+            .categorias__img2{
+                width: 638.50px;
+                height: 432px;
+            }
+        }
+        .accesorios{
+            .categorias__texto{
+                font-size: 50px;
+            }
+            .categorias__img3{
+                width: 1298px;
+                height: 432px;
+            }
+        }
+    }
+
+
+    .somos{
+        a{
+            .somos__titulo{
+                font-size: 40px;
+                margin: 2%;
+                padding: 3%;
+            }
+        }
+        a{
+            .somos__texto{
+                font-size: 25px;
+            }
+        }
+    }
+
+
+
+    div{
+        .contacto__container{
+            justify-content: center;
+            .consulta{
+            margin-bottom: 0;
+            margin-right: 50px;
+            }
+        }
+    }
+
+
+    section{
+        .nosotros__titulo{font-size: 40px;}
+        .nosotros{
+            .nosotros__img{
+                height: 600px;
+                width: 500px;
+            }
+            .nosotros__texto{
+                width: 40%;
+                font-size: 30px;
+            }
+        }
+    }
+    section{
+        .showroom__titulo{font-size: 40px;}
+        .showroom{
+            .showroom__img{
+                height: 600px;
+                width: 500px;
+            }
+        }
+    }
+    section{
+        .encontranos__contenedor{
+            margin-top: 80px;
+            .encontranos__img{
+                height: 600px;
+                width: 500px;
+            }
+            .texto-contenedor{
+                .encontranos__titulo{font-size: 40px;}
+                .encontranos__texto{font-size: 18px;}
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+}
