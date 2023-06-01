@@ -2,6 +2,7 @@
 .weare {
     @include flex (flex, center, center);
     flex-direction: column;
+    margin: 50px;
 
     .weare__img {
         width: 100%;
@@ -11,6 +12,7 @@
     .weare__titulo {
         color: $color__principal;
         font-size: 60px;
+        margin-top: 40px;
     }
 }
 
@@ -132,7 +134,7 @@
 }
 
 ////*contacto*////
-div {
+main{
     .contacto__titulo {
         @include flex (flex, center, none);
         margin: 8%;
@@ -150,11 +152,13 @@ div {
         }
 
         .consulta {
-            margin-bottom: 400px;
-            margin-right: 100px;
+            @include flex (flex, center, center);
+            flex-direction: column;
+            margin: 50px
         }
     }
 }
+
 
 section {
     .nosotros__titulo {

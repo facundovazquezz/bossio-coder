@@ -24,29 +24,31 @@ header {
   flex-direction: column;
   font-size: 22px;
   color: #182145; }
-
-header nav ul {
-  display: flex; }
-
-header nav ul li {
-  display: flex;
-  margin: 12px; }
-
-header nav a img {
-  width: 150px;
-  height: 150px; }
+  header nav .container-fluid .navbar-brand img {
+    width: 150px;
+    height: 150px; }
+  header nav .container-fluid .navbar-toggler {
+    color: #182145;
+    border-color: #182145; }
+  header div ul {
+    display: flex; }
+    header div ul li {
+      display: flex;
+      margin: 12px; }
 
 .weare {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  margin: 50px; }
   .weare .weare__img {
     width: 100%;
     height: 100%; }
   .weare .weare__titulo {
     color: #182145;
-    font-size: 60px; }
+    font-size: 60px;
+    margin-top: 40px; }
 
 .productos__titulo {
   display: flex;
@@ -129,25 +131,28 @@ header nav a img {
   align-items: none;
   font-size: 25px; }
 
-div .contacto__titulo {
+main .contacto__titulo {
   display: flex;
   justify-content: center;
   align-items: none;
   margin: 8%;
   font-size: 40px; }
 
-div .contacto__container {
+main .contacto__container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row; }
-  div .contacto__container .contacto__img {
+  main .contacto__container .contacto__img {
     box-shadow: 10px 11px 20px -3px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 11px 20px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 11px 20px -3px rgba(0, 0, 0, 0.75); }
-  div .contacto__container .consulta {
-    margin-bottom: 400px;
-    margin-right: 100px; }
+  main .contacto__container .consulta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px; }
 
 section .nosotros__titulo {
   display: flex;
@@ -324,6 +329,74 @@ footer {
       footer .padre .footer__copy p {
         margin-top: 20px; }
 
+@media screen and (max-width: 511px) {
+  .categorias {
+    grid-template-columns: 1fr; }
+    .categorias .indumentaria .categorias__img1 {
+      max-width: 100%; }
+    .categorias .calzado .categorias__img2 {
+      max-width: 100%; }
+    .categorias .accesorios .categorias__img3 {
+      max-width: 100%; } }
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .weare .weare__titulo {
+    font-size: 50px;
+    margin-top: 30px; } }
+
+@media screen and (min-width: 901px) {
+  .weare .weare__titulo {
+    font-size: 60px;
+    margin-top: 40px; } }
+
+@media screen and (max-width: 600px) {
+  section .nosotros__titulo {
+    font-size: 30px;
+    margin: 4%; }
+  section .nosotros {
+    flex-direction: column;
+    align-items: center; }
+    section .nosotros .nosotros__texto {
+      width: 80%;
+      font-size: 20px; }
+  section .showroom__titulo {
+    font-size: 30px;
+    margin: 4%; }
+  section .showroom {
+    flex-direction: column;
+    align-items: center; }
+    section .showroom .showroom__img {
+      height: 400px;
+      width: 80%; } }
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  section .nosotros__titulo {
+    font-size: 35px;
+    margin: 6%; }
+  section .nosotros .nosotros__texto {
+    width: 50%;
+    font-size: 25px; }
+  section .showroom__titulo {
+    font-size: 35px;
+    margin: 6%; }
+  section .showroom .showroom__img {
+    height: 500px;
+    width: 400px; } }
+
+@media screen and (min-width: 901px) {
+  section .nosotros__titulo {
+    font-size: 40px;
+    margin: 8%; }
+  section .nosotros .nosotros__texto {
+    width: 40%;
+    font-size: 30px; }
+  section .showroom__titulo {
+    font-size: 40px;
+    margin: 8%; }
+  section .showroom .showroom__img {
+    height: 600px;
+    width: 500px; } }
+
 @media screen and (max-width: 768px) {
   header {
     font-size: 18px; }
@@ -348,13 +421,11 @@ footer {
     padding: 20px; }
     footer .padre .footer__caja .footer__titulo {
       font-size: 25px; }
-  .weare {
-    flex-direction: column; }
-    .weare .weare__titulo {
-      font-size: 40px; }
-    .weare .weare__img {
-      width: 100%;
-      height: auto; }
+  .weare .weare__titulo {
+    font-size: 40px; }
+  .weare .weare__img {
+    max-width: 100%;
+    height: auto; }
   .productos__titulo {
     font-size: 35px;
     margin: 4%; }
@@ -395,12 +466,12 @@ footer {
       font-size: 24px; }
     .ayuda__contenedor .ayuda__formulario .ayuda__mensaje {
       width: 100%; }
-  div .contacto__container {
+  main .contacto__container {
     flex-direction: column;
     align-items: center; }
-    div .contacto__container .contacto__img {
+    main .contacto__container .contacto__img {
       margin-bottom: 30px; }
-    div .contacto__container .consulta {
+    main .contacto__container .consulta {
       margin-bottom: 50px;
       margin-right: 0; }
   section .nosotros__titulo {
@@ -485,13 +556,13 @@ footer {
     padding: 10px; }
     .ayuda__contenedor .ayuda__titulo {
       font-size: 20px; }
-  div .contacto__container {
+  main .contacto__container {
     flex-direction: column;
     align-items: center; }
-    div .contacto__container .contacto__img {
+    main .contacto__container .contacto__img {
       margin-bottom: 20px;
       text-align: center; }
-    div .contacto__container .consulta {
+    main .contacto__container .consulta {
       margin-bottom: 30px;
       margin-right: 0; }
   section .nosotros__titulo {
@@ -567,9 +638,9 @@ footer {
     padding: 3%; }
   .somos a .somos__texto {
     font-size: 25px; }
-  div .contacto__container {
+  main .contacto__container {
     justify-content: center; }
-    div .contacto__container .consulta {
+    main .contacto__container .consulta {
       margin-bottom: 0;
       margin-right: 50px; }
   section .nosotros__titulo {

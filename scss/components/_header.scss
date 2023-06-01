@@ -5,16 +5,27 @@ header{
     flex-direction: column;
     font-size: 22px;
     color: $color__principal;
+    nav{
+    .container-fluid{
+        .navbar-brand{
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .navbar-toggler{
+            color: $color__principal;
+            border-color: $color__principal;
+        }
+    }
 }
-
-header nav ul{
-    display:flex ;
+    div{
+    ul{
+        display:flex ;
+        li{
+            display: flex;
+            margin: 12px;
+        }
+    }
 }
-header nav ul li{
-    display: flex;
-    margin: 12px;
-}
-header nav a img{
-    width: 150px;
-    height: 150px;
 }

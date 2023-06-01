@@ -1,6 +1,7 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap');
 
-/*------------Reset------------*/
+/*------------Reset------------
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-/*------------Header------------*/
+/*------------Header------------
 header {
     display: flex;
     background-color: white;
@@ -42,13 +43,20 @@ header nav a img {
     width: 150px;
     height: 150px;
 }
+.navbar-toggler{
+    color: #182145 !important;
+    border-color: #182145 !;
+}
+    
 
-/*------------weare------------*/
+
+/*------------weare------------
 .weare {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 50px;
 }
 
 .weare__img {
@@ -63,7 +71,7 @@ header nav a img {
     margin-top: 40px;
 }
 
-/*------------productos------------*/
+/*------------productos------------
 .productos {
     display: flex;
     flex-direction: row;
@@ -94,7 +102,7 @@ header nav a img {
     font-size: 18px;
 }
 
-/*------------categorias------------*/
+/*------------categorias------------
 .categorias {
     display: grid;
     grid-template-columns: 638.50px 638.50px;
@@ -134,7 +142,7 @@ header nav a img {
     width: 1298px;
 }
 
-/*------------somos------------*/
+/*------------somos------------
 .somos__titulo {
     display: flex;
     justify-content: center;
@@ -149,7 +157,7 @@ header nav a img {
     font-size: 25px
 }
 
-/*------------footer------------*/
+/*------------footer------------
 footer {
     width: 100%;
     padding: 50px 0px;
@@ -201,7 +209,7 @@ footer {
     background-color: #182145;
 }
 
-/*------------Contacto------------*/
+/*------------Contacto------------/
 .contacto__titulo {
     display: flex;
     justify-content: center;
@@ -217,9 +225,14 @@ footer {
 }
 
 .consulta {
-    margin-bottom: 400px;
-    margin-right: 100px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
+
 
 .contacto__img {
     box-shadow: 10px 11px 20px -3px rgba(0, 0, 0, 0.75);
@@ -228,7 +241,7 @@ footer {
 
 }
 
-/*------------Nosotros------------*/
+/*------------Nosotros------------
 .nosotros__titulo {
     display: flex;
     justify-content: center;
@@ -299,7 +312,7 @@ footer {
     font-size: 25px;
 }
 
-/*------------Ayuda------------*/
+/*------------Ayuda------------
 .ayuda__contenedor {
     background-color: #ffffff;
     padding: 40px;
@@ -339,10 +352,10 @@ footer {
 
 
 
-/* MEDIA QUERIS */
+/* MEDIA QUERIS 
 
 
-/* ARREGLO DE MEDIA QUERIS */
+/* ARREGLO DE MEDIA QUERIS 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .weare__titulo {
         font-size: 50px;
@@ -435,50 +448,10 @@ footer {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media queris para pantallas mas pequeñas*/
+/* media queris para pantallas mas pequeñas
 @media screen and (max-width: 768px) {
 
-    /* estilos para Contacto */
+    /* estilos para Contacto 
     .contacto__container {
         flex-direction: column;
         align-items: center;
@@ -494,7 +467,7 @@ footer {
     }
 
 
-    /* estilos para el Footer */
+    /* estilos para el Footer 
     .footer__caja {
         padding: 20px;
     }
@@ -503,7 +476,7 @@ footer {
         font-size: 25px;
     }
 
-    /* estilos para Ayuda */
+    /* estilos para Ayuda 
     .ayuda__contenedor {
         padding: 20px;
     }
@@ -516,7 +489,7 @@ footer {
         width: 100%;
     }
 
-    /* estilos para Nosotros*/
+    /* estilos para Nosotros
     .encontranos__img {
         height: auto;
         width: 100%;
@@ -528,7 +501,7 @@ footer {
     }
 
 
-    /* estilos para Categorias */
+    /* estilos para Categorias 
     .categorias__titulo {
         font-size: 30px;
     }
@@ -549,7 +522,7 @@ footer {
         height: auto;
     }
 
-/* Estilos para Productos */
+/* Estilos para Productos 
     .productos {
         flex-direction: column;
     }
@@ -564,7 +537,7 @@ footer {
         margin: 4%;
     }
 
-    /* estilos para Somos */
+    /* estilos para Somos 
     .somos__titulo {
         font-size: 35px;
         margin: 1.5%;
@@ -576,16 +549,16 @@ footer {
     }
 }
 
-/* media queris para pantallas mas pequeñas*/
+/* media queris para pantallas mas pequeñas
 @media screen and (max-width: 480px) {
 
 
-    /* Estilos para el Footer */
+    /* Estilos para el Footer 
     .footer__titulo {
         font-size: 20px;
     }
 
-    /* Estilos para Ayuda */
+    /* Estilos para Ayuda 
     .ayuda__contenedor {
         padding: 10px;
     }
@@ -594,7 +567,7 @@ footer {
         font-size: 20px;
     }
 
-    /* Estilos para Contacto */
+    /* Estilos para Contacto 
     .contacto__container {
         flex-direction: column;
         align-items: center;
@@ -611,7 +584,7 @@ footer {
     }
 
 
-    /* Estilos para Categorias */
+    /* Estilos para Categorias 
 
     .categorias__texto {
         font-size: 40px;
@@ -634,7 +607,7 @@ footer {
         margin: 3%;
     }
 
-    /* Estilos para Somos */
+    /* Estilos para Somos 
 
     .somos__titulo {
         font-size: 30px;
@@ -647,11 +620,11 @@ footer {
     }
 }
 
-/* Estilos para dispositivos de pantalla mediana y grande */
+/* Estilos para dispositivos de pantalla mediana y grande 
 @media screen and (min-width: 768px) {
 
 
-    /* Estilos para  Contacto */
+    /* Estilos para  Contacto 
     .contacto__container {
         justify-content: center;
     }
@@ -661,7 +634,7 @@ footer {
         margin-right: 50px;
     }
 
-    /* Estilos para Nosotros*/
+    /* Estilos para Nosotros
     .encontranos__img {
         height: 600px;
         width: 500px;
@@ -671,7 +644,7 @@ footer {
         margin-top: 80px;
     }
 
-    /* Estilos para  Categorias */
+    /* Estilos para  Categorias 
     .categorias__titulo {
         font-size: 40px;
     }
@@ -696,7 +669,7 @@ footer {
         height: 432px;
     }
 
-/* Estilos para Productos */
+/* Estilos para Productos 
     .productos {
         flex-direction: row;
     }
@@ -710,7 +683,7 @@ footer {
         font-size: 40px;
     }
 
-    /* Estilos para Somos */
+    /* Estilos para Somos 
 
     .somos__titulo {
         font-size: 40px;

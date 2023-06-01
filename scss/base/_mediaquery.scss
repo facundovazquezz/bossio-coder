@@ -1,3 +1,140 @@
+@media screen and (max-width: 511px){
+    .categorias{
+        grid-template-columns: 1fr;
+        
+        .indumentaria{
+            .categorias__img1{  
+                max-width: 100%;
+                }
+        }
+        .calzado{
+            .categorias__img2{    
+                max-width: 100%;
+                }
+        }
+        .accesorios{
+            .categorias__img3{    
+                max-width: 100%;
+                }
+        }
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .weare{
+        .weare__titulo {
+            font-size: 50px;
+            margin-top: 30px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 901px) {
+    .weare{
+        .weare__titulo {
+            font-size: 60px;
+            margin-top: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section{
+        .nosotros__titulo {
+            font-size: 30px;
+            margin: 4%;
+        }
+        .nosotros {
+            flex-direction: column;
+            align-items: center;
+            .nosotros__texto {
+                width: 80%;
+                font-size: 20px;
+            }
+        }
+    }
+    
+    section{
+        .showroom__titulo {
+            font-size: 30px;
+            margin: 4%;
+        }
+        .showroom {
+            flex-direction: column;
+            align-items: center;
+            .showroom__img {
+                height: 400px;
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    section{
+        .nosotros__titulo {
+            font-size: 35px;
+            margin: 6%;
+        }
+        .nosotros{
+            .nosotros__texto{
+                width: 50%;
+                font-size: 25px;
+            }
+        }
+    }
+    section{
+        .showroom__titulo{
+            font-size: 35px;
+            margin: 6%;
+        }
+        .showroom{
+            .showroom__img {
+                height: 500px;
+                width: 400px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 901px) {
+    
+    section{
+        .nosotros__titulo {
+            font-size: 40px;
+            margin: 8%;
+        }
+        .nosotros{
+            .nosotros__texto{
+                width: 40%;
+                font-size: 30px;
+            }
+        }
+    }
+    section{
+        .showroom__titulo{
+            font-size: 40px;
+            margin: 8%;
+        }
+        .showroom{
+            .showroom__img {
+                height: 600px;
+                width: 500px;
+            }
+        }
+    }
+}
+
+
+
 @media screen and (max-width: 768px) {
     header{
         font-size: 18px;
@@ -41,11 +178,11 @@
         }
         
         .weare{
-            flex-direction: column;
+            
             .weare__titulo{
                 font-size: 40px;}
             .weare__img{
-                width: 100%;
+                max-width: 100%;
                 height: auto;}
         }
 
@@ -125,7 +262,7 @@
     }
 
 
-    div{
+    main{
         .contacto__container{
             flex-direction: column;
             align-items: center;
@@ -311,7 +448,7 @@
     }
 
 
-    div{
+    main{
         .contacto__container{
             flex-direction: column;
             align-items: center;
@@ -472,7 +609,7 @@
 
 
 
-    div{
+    main{
         .contacto__container{
             justify-content: center;
             .consulta{
