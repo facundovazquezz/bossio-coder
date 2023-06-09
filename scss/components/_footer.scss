@@ -3,7 +3,7 @@ footer {
     padding: 50px 0px;
 
     .padre {
-        @include flex (flex, space-between, none);
+        @include flex (flex, space-between, center);
         flex-wrap: wrap;
         max-width: 1200px;
         margin: auto;
@@ -123,10 +123,6 @@ footer {
             display: flex;
             flex-direction: column;
             padding: 40spx;
-
-
-
-
         }
 
         .footer__copy {
